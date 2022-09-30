@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100hv;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+body .title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 40px;
+  color: #000;
+  text-shadow: 0 1px 2px rgb(0, 0, 0);
+}
+body .title:hover h1 {
+  transition: 0.5s;
+}
+body .title:hover #ig {
+  color: orangered;
+  cursor: default;
+}
+body .title:hover #tw {
+  color: aqua;
+  cursor: default;
+}
+body .title:hover #fb {
+  color: mediumblue;
+  cursor: default;
+}
+body .container {
+  width: 100%;
+  max-width: 1200px;
+  height: 440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+body .container .card {
+  background: rgb(255, 255, 255);
+  width: 360px;
+  height: 480px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.3s;
+}
+body .container .card img {
+  width: 330px;
+  height: 220px;
+  border-radius: 6px;
+}
+body .container .card h3 {
+  font-weight: 600;
+  transition: all 0.8s;
+  height: 30px;
+}
+body .container .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  height: 180px;
+}
+body .container .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #4287b4;
+  transition: 0.5s;
+}
+body .container .card a:hover {
+  color: #000;
+  font-size: 18px;
+}
+body .container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+body #ig:hover {
+  color: orangered;
+  cursor: default;
+}
+body #tw:hover {
+  color: aqua;
+  cursor: default;
+}
+body #fb:hover {
+  color: mediumblue;
+  cursor: default;
+}
+body .footer {
+  position: relative;
+  display: flex;
+  padding: 20px 50px;
+  width: 100%;
+  height: 100hv;
+  align-items: center;
+  justify-content: center;
+}
+body .footer p {
+  text-align: center;
+  text-shadow: 0 1px 1px rgb(0, 0, 0);
+  cursor: default;
+}/*# sourceMappingURL=style.css.map */
